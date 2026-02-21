@@ -17,3 +17,6 @@
 1:35:20 .gitignore :- mention file name to avoid tracking some file under git initialised folder
 1:35:50 git add .
         git status
+1:38:40 Git dont track empty folder. It track folder with content only
+        git status : run after creating empty folder and then after creating non empty folder
+        bronze/ : adding in .gitignore to make untrack
