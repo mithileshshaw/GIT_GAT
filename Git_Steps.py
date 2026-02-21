@@ -10,4 +10,10 @@
         git commit - m "initial commit"
         git branch : main
 49:00   lets discuss every building blocks now
-1:14:20 git commit : cand add message in actual file header
+1:14:20 git commit : cand add message in actual file header or terminal header
+1:21:10 New Branch will be created from head of the branch or latest commit
+1:23:17 git log-
+1:25:40 git log --oneline
+1:35:20 .gitignore :- mention file name to avoid tracking some file under git initialised folder
+1:35:50 git add .
+        git status
