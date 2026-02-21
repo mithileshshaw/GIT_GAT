@@ -25,3 +25,10 @@
         git branch
 1:54:35 git switch main : always switch to main branch before creating any new branch 
         git checkout main : mainly used for multipurpose task like checking,switching branch etc. avoid using it for just switch
+       
+
+2:05:30	Inviting another developer for contribution
+		git switch main : first switch to main
+2:07:10	git checkout -b feature_shaw_1 : feature_shaw_1 comes to same level of main
+        git add .
+        git commit -m "Added details 2:05:30 to 2:07:10"
