@@ -20,3 +20,4 @@
 1:38:40 Git dont track empty folder. It track folder with content only
         git status : run after creating empty folder and then after creating non empty folder
         bronze/ : adding in .gitignore to make untrack
+1:42:00 .gitkeep : create .gitkeep file under silver folder to forcefully keeping track of non empty folder for future purpose
