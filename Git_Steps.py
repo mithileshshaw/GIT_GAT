@@ -25,3 +25,7 @@
         git branch
 1:54:35 git switch main : always switch to main branch before creating any new branch 
         git checkout main : mainly used for multipurpose task like checking,switching branch etc. avoid using it for just switch
+
+1:58:30 Working and Editing file on feature_mith_1 file begins from here
+        git checkout -c feature_mith_1 or git switch -c feature_mith_1
+		git branch
