@@ -49,6 +49,9 @@
 		git switch main
 		git merge feature_shaw_1
 		git status : nothing to commit but then also commit is mandatory
+                git add .
+                git commit -m "confict megred with feature_mith_1
+
 2:15:00	2 types of merge Fast Forward Merge and Non-Fast Forword Merge
 	Fast Forward Merge : created new branch, done two commit, but not make/commit prgress on main branch. Here Feature branch is ahead of main
 		             Now we will merge both feature and main together later
@@ -56,4 +59,27 @@
 				Now we will merge both feature and main together and called Merge Commit
 
 2:17:50	git merge feature_mith_1
-        git commit -m "Now begin to merge main with feature_mith_1"
+        git add .
+        git commit -m "confict megred with feature_mith_1
+
+you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and feature_mith_1 merging
+# 2:20:40 Merge Conflict
+# 2:27:00	git switch main
+# 		git switch -c bugfix : now start making some changes in file having bugfix branch codes
+# 		git add .
+# 		git commit -m "fix-bug"
+# 		git switch main : again make changes in file having main brach codes
+# 		git add . 
+# 		git commit -m "bug is fixed"
+# 		git status : nothing to commit
+# 		git branch : main
+# 		git merge bugfix -m "simple merge" : getting conflict
+# 2:31:10	git merge --abort : to abort the merging
+# 		git status
+		
+# 2:32:10	Now fixing the bugs/conflicts
+# 		git merge bugfix -m "this guy fixed as well"
+# 2:35:30	Click Complete Merge and then continue : after considering current OR incoming OR both current and incoming OR Manual Resolution OR Reset to base\
+# 2:35:50	git status : conficts are resolved but now we need to commit to conclude the merges
+# 		git add .
+# 		git commit -m "conflicts merged"
