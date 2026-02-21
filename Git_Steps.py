@@ -21,3 +21,7 @@
         git status : run after creating empty folder and then after creating non empty folder
         bronze/ : adding in .gitignore to make untrack
 1:42:00 .gitkeep : create .gitkeep file under silver folder to forcefully keeping track of non empty folder for future purpose
+1:44:00 Brnaches details begins
+        git branch
+1:54:35 git switch main : always switch to main branch before creating any new branch 
+        git checkout main : mainly used for multipurpose task like checking,switching branch etc. avoid using it for just switch
