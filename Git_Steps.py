@@ -83,3 +83,9 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 # 2:35:50	git status : conficts are resolved but now we need to commit to conclude the merges
 # 		git add .
 # 		git commit -m "conflicts merged"
+
+2:38:10 Now we will work on same file but still dont get the conflict
+        git switch -c bugfix2
+        We are writing in fresh new line for bigfix2 so, there will be not much conflict and we will resolve it manually also
+        git add .
+        git commit -m "adding new content for bugfix2 and will not get conflict"
