@@ -29,3 +29,7 @@
 1:58:30 Working and Editing file on feature_mith_1 file begins from here
         git checkout -c feature_mith_1 or git switch -c feature_mith_1
 		git branch
+        git add .
+        git commit -m "adding data on feature_mith_1"
+        git log --online : 24095f1 (HEAD -> feature_mith_1) adding data on feature_mith_1
+2:03:00 git switch main : head moves to main and the changes made in featue brnch disappers
