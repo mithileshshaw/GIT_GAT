@@ -82,4 +82,5 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 # 2:35:30	Click Complete Merge and then continue : after considering current OR incoming OR both current and incoming OR Manual Resolution OR Reset to base\
 # 2:35:50	git status : conficts are resolved but now we need to commit to conclude the merges
 # 		git add .
-# 		git commit -m "conflicts merged"
+# 		git commit -m "conflicts merged".
+                comment: Adding this extra line just for bugfix2 in main branch and commit it
