@@ -84,3 +84,13 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 # 		git add .
 # 		git commit -m "conflicts merged".
                 comment: Adding this extra line just for bugfix2 in main branch and commit it
+
+2:38:10 Now we will work on same file but still dont get the conflict
+        git switch -c bugfix2
+        We are writing in fresh new line for bigfix2 so, there will be not much conflict and we will resolve it manually also
+        git add .
+        git commit -m "adding new content for bugfix2 and will not get conflict"
+        git merge bugfix2 : The current changes and incoming chagnes dont have much conflict and manually editing it for final changes
+        git status
+        git add . 
+        git commit -m "Manualy resolved bugfix2 from main branch, by using merge command"
