@@ -25,3 +25,7 @@
         git branch
 1:54:35 git switch main : always switch to main branch before creating any new branch 
         git checkout main : mainly used for multipurpose task like checking,switching branch etc. avoid using it for just switch
+       
+2:09:15	git switch main
+        git add .
+        git commit -m "added details 2:09:15"
