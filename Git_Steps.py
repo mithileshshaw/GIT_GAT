@@ -36,3 +36,16 @@
 2:09:15	git switch main
 		git add .
 		git commit -m "added details 2:09:15"
+
+2:13:00 Merging
+		git switch main
+		git merge feature_shaw_1
+		git status : nothing to commit but then also commit is mandatory
+2:15:00	2 types of merge Fast Forward Merge and Non-Fast Forword Merge
+	Fast Forward Merge : created new branch, done two commit, but not make/commit prgress on main branch. Here Feature branch is ahead of main
+		             Now we will merge both feature and main together later
+	Non-Fast Forword Merge: In Real example we will move forward with main branch as well. Here Main branch is ahead of Feature
+				Now we will merge both feature and main together and called Merge Commit
+
+2:17:50	git merge feature_mith_1
+        git commit -m "Now begin to merge main with feature_mith_1"
