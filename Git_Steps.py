@@ -6,3 +6,8 @@
         git status
 42:15   git branch : Branch details
 43:30   Initial commit is to register the master branch
+        git add .
+        git commit - m "initial commit"
+        git branch : main
+49:00   lets discuss every building blocks now
+1:14:20 git commit : cand add message in actual file header
