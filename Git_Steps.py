@@ -94,3 +94,9 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git status
         git add . 
         git commit -m "Manualy resolved bugfix2 from main branch, by using merge command"
+
+2:46:45 Rebase : shifting the base of featrue branch to new commit of the maaster branch. 
+        Its a kind of Fast Forward mode. Now if we apply Merge command after Rebasing it then it becomes Merge FF
+        That means we do not have new commits in main branch, all the commits are coming from featues branch
+2:51:14 git status
+        git switch -c rebase_feat
