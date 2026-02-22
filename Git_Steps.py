@@ -120,3 +120,5 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         Delte some file or file data
         git add .
         git commit -m "delete some data"
+	git reflog : advance version of git --oneline
+3:02:40	git reset --hard HEAD~1		
