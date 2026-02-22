@@ -171,3 +171,28 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git stash apply "stash@{0}" : using stash id to get back content from stash stack
         git add .
         git commit -m "commiting by git stash apply stash id"
+
+3:44:00 Create GIT_GAT Reporsitory
+	git config --global user.name "mithilesh shaw"
+	git config --global user.email "mithiles9shaw@gmail.com"
+	git config --list   #check git configured details
+		
+3:46:00	Create GIT_GAT Reporsitory
+		Setting --> Developer Setting --> Token(classic) --> Generate new token (classic) --> 
+		https://github.com/mithileshshaw/GIT_GAT.git
+3:47:10	git remote -v : we should have remote version before push
+3:47:35	git remote add origin https://github.com/mithileshshaw/GIT_GAT.git : origin is destination where you want to push the code
+	git remote -v : now origin got added
+	git switch main
+	git branch -m main : to rename the branch from master to main
+
+3:49:50	git push origin main :
+3:49:50	git push -u origin main : will not allow you to push because u need to authenticate
+
+3:52:25	git remote add origin https://<USERNAME>:<PERSONAL_ACCESS_TOKEN>@github.com/<OWNER>/<REPOSITORY_NAME>.git
+                                https://mithileshshaw:<PERSONAL_ACCESS_TOKEN>@github.com/mithileshshaw/GIT_GAT.git
+                To add a remote origin using a personal access token, you can embed the token directly in the HTTPS URL,
+
+3:55:43	git pull origin main --allow-unrelated-histories
+
+4:00:00	git clone "https://github.com/mithileshshaw/GIT_GAT.git"
