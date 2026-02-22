@@ -159,3 +159,11 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git stash pop : to delete from stack memory possible only before commit
         add .
         git commit -m "commit from retreiving stashing"
+
+3:40:00 git stash push -m "add again for stashing"
+        git stash list
+        git switch main
+        git switch dev1
+        git stash apply "stash@{0}" : using stash id to get back content from stash stack
+        git add .
+        git commit -m "commiting by git stash apply stash id"
