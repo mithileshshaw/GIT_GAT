@@ -115,3 +115,9 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git switch rebase_feat
         git rebase main
         git merge rebase_feat
+
+3:12:00	Cherry Pick
+3:15:00	Merging only requried commit from feature branch out of multiple commit and will be assigned with new commit id
+	git switch rebase_feat : add some new details
+        git add .
+	git commit -m "exploring cherry-pick"
