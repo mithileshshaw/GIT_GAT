@@ -142,3 +142,8 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 	git log --oneline : select the desire commit id for cherry-pick
 	git cherry-pick 47904f1
 3:23:00	git cherry-pick 47904f1 82992ff : for multiple cherry-pick
+
+3:24:00 Stashing : Temporary storage location that git provides
+	git switch -c dev1
+        add . : add some details or modify code
+        git commit -m "commiting dev1 for stashing"
