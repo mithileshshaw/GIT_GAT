@@ -104,3 +104,4 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 2:52:30 git switch main : add some new data
         git add .
         git commit -m "add some new data"
+2:53:00 Rebase command begins
