@@ -147,3 +147,15 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 	git switch -c dev1
         add . : add some details or modify code
         git commit -m "commiting dev1 for stashing"
+		adding some more details in progress and will keep this work in stashing before switching branch
+        git switch main
+3:30:00 Stashing explain
+3:31:20 git stash push -m "My Dev paused"
+
+3:33:00 git switch dev1
+        git stash list : stash@{0}: On dev1: My Dev paused
+3:36:25 git stash apply
+        git stash list
+        git stash pop : to delete from stack memory possible only before commit
+        add .
+        git commit -m "commit from retreiving stashing"
