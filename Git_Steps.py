@@ -142,3 +142,8 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 	git log --oneline : select the desire commit id for cherry-pick
 	git cherry-pick 47904f1
 3:23:00	git cherry-pick 47904f1 82992ff : for multiple cherry-pick
+
+
+3:32:10 git switch main : switched successfully after stashing
+        git add .
+        git commit -m "commiting after stashing"
