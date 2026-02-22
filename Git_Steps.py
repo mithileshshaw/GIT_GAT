@@ -114,3 +114,4 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 2:53:00 Rebase command begins
         git switch rebase_feat
         git rebase main
+        git merge rebase_feat
