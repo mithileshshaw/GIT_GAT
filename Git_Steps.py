@@ -111,7 +111,12 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git add .
         git commit -m "add some new data"
 
-2:53:00 Rebase command begins
+2:53:00 Rebase command 
         git switch rebase_feat
         git rebase main
-        git merge rebase_feat
+        git merge rebase_feat : Fast-Forward merge because the were no additional commit available in main branch
+
+2:56:40 Lets talk about Ref log and Time Travelling
+        Delte some file or file data
+        git add .
+        git commit -m "delete some data"
