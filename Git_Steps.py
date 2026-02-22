@@ -143,7 +143,31 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 	git cherry-pick 47904f1
 3:23:00	git cherry-pick 47904f1 82992ff : for multiple cherry-pick
 
+3:24:00 Stashing : Temporary storage location that git provides
+	git switch -c dev1
+        add . : add some details or modify code
+        git commit -m "commiting dev1 for stashing"
+		adding some more details in progress and will keep this work in stashing before switching branch
+        git switch main
+3:30:00 Stashing explain
+3:31:20 git stash push -m "My Dev paused"
 
 3:32:10 git switch main : switched successfully after stashing
         git add .
         git commit -m "commiting after stashing"
+
+3:33:00 git switch dev1
+        git stash list : stash@{0}: On dev1: My Dev paused
+3:36:25 git stash apply
+        git stash list
+        git stash pop : to delete from stack memory possible only before commit
+        add .
+        git commit -m "commit from retreiving stashing"
+
+3:40:00 git stash push -m "add again for stashing"
+        git stash list
+        git switch main
+        git switch dev1
+        git stash apply "stash@{0}" : using stash id to get back content from stash stack
+        git add .
+        git commit -m "commiting by git stash apply stash id"
