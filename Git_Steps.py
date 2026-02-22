@@ -122,7 +122,6 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git commit -m "delete some data"
 	git reflog : advance version of git --oneline
 3:02:40	git reset --hard HEAD~1
-
 3:04:00	git rest --hard 3accb4c : use commit id to go back again to present/acutal version
 
 3:07:50	git diff
@@ -131,3 +130,15 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 	dif diff --staged : diff b/w staging area and destination
 	git reset : moving back from staging area and making file again as modified
         Go to Source Control and discard changes as per wish
+
+3:12:00	Cherry Pick
+3:15:00	Merging only requried commit from feature branch out of multiple commit and will be assigned with new commit id
+	git switch rebase_feat : add some new details
+        git add .
+	git commit -m "exploring cherry-pick"
+	git add . : add some more details
+	git commit -m "exploring cherry-pick 2"
+	git switch main
+	git log --oneline : select the desire commit id for cherry-pick
+	git cherry-pick 47904f1
+3:23:00	git cherry-pick 47904f1 82992ff : for multiple cherry-pick
