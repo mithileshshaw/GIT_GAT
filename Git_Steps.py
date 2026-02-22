@@ -98,10 +98,19 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 2:46:45 Rebase : shifting the base of featrue branch to new commit of the maaster branch. 
         Its a kind of Fast Forward mode. Now if we apply Merge command after Rebasing it then it becomes Merge FF
         That means we do not have new commits in main branch, all the commits are coming from featues branch
-2:51:14 git status
+
+2:51:14 git status : main
+        git add .
+        git commit -m "commiting to explore rebase"
         git switch -c rebase_feat
 
+2:51:50 Rebase starts exploring
+        git add .
+        git commit -m "added data fore reabase branch"
 2:52:30 git switch main : add some new data
         git add .
         git commit -m "add some new data"
+
 2:53:00 Rebase command begins
+        git switch rebase_feat
+        git rebase main
