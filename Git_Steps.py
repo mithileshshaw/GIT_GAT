@@ -121,3 +121,5 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
 	git switch rebase_feat : add some new details
         git add .
 	git commit -m "exploring cherry-pick"
+	git add . : add some more details
+	git commit -m "exploring cherry-pick 2"
