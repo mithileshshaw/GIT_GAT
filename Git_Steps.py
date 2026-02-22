@@ -121,4 +121,13 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git add .
         git commit -m "delete some data"
 	git reflog : advance version of git --oneline
-3:02:40	git reset --hard HEAD~1		
+3:02:40	git reset --hard HEAD~1
+
+3:04:00	git rest --hard 3accb4c : use commit id to go back again to present/acutal version
+
+3:07:50	git diff
+        git add .
+        dit diff : nothing
+	dif diff --staged : diff b/w staging area and destination
+	git reset : moving back from staging area and making file again as modified
+        Go to Source Control and discard changes as per wish
