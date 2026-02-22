@@ -103,6 +103,13 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git commit -m "commiting to explore rebase"
         git switch -c rebase_feat
 
-2;51:50 Rebase starts exploring
+2:51:50 Rebase starts exploring
         git add .
         git commit -m "added data fore reabase branch"
+2:52:30 git switch main : add some new data
+        git add .
+        git commit -m "add some new data"
+
+2:53:00 Rebase command begins
+        git switch rebase_feat
+        git rebase main
