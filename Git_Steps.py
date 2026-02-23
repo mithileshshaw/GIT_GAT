@@ -120,31 +120,31 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         Delte some file or file data
         git add .
         git commit -m "delete some data"
-	git reflog : advance version of git --oneline
+        git reflog : advance version of git --oneline
 3:02:40	git reset --hard HEAD~1
 3:04:00	git rest --hard 3accb4c : use commit id to go back again to present/acutal version
 
 3:07:50	git diff
         git add .
         dit diff : nothing
-	dif diff --staged : diff b/w staging area and destination
-	git reset : moving back from staging area and making file again as modified
+        dif diff --staged : diff b/w staging area and destination
+        git reset : moving back from staging area and making file again as modified
         Go to Source Control and discard changes as per wish
 
 3:12:00	Cherry Pick
 3:15:00	Merging only requried commit from feature branch out of multiple commit and will be assigned with new commit id
-	git switch rebase_feat : add some new details
+        git switch rebase_feat : add some new details
         git add .
-	git commit -m "exploring cherry-pick"
-	git add . : add some more details
-	git commit -m "exploring cherry-pick 2"
-	git switch main
-	git log --oneline : select the desire commit id for cherry-pick
-	git cherry-pick 47904f1
+        git commit -m "exploring cherry-pick"
+        git add . : add some more details
+        git commit -m "exploring cherry-pick 2"
+        git switch main
+        git log --oneline : select the desire commit id for cherry-pick
+        git cherry-pick 47904f1
 3:23:00	git cherry-pick 47904f1 82992ff : for multiple cherry-pick
 
 3:24:00 Stashing : Temporary storage location that git provides
-	git switch -c dev1
+        git switch -c dev1
         add . : add some details or modify code
         git commit -m "commiting dev1 for stashing"
 		adding some more details in progress and will keep this work in stashing before switching branch
@@ -173,9 +173,9 @@ you can skip the from 2:20:40 to 2:35:50 alredy covered with feature_shaw_1 and 
         git commit -m "commiting by git stash apply stash id"
 
 3:44:00 Create GIT_GAT Reporsitory
-	git config --global user.name "mithilesh shaw"
-	git config --global user.email "mithiles9shaw@gmail.com"
-	git config --list   #check git configured details
+        git config --global user.name "mithilesh shaw"
+        git config --global user.email "mithiles9shaw@gmail.com"
+        git config --list   #check git configured details
 		
 3:46:00	Create GIT_GAT Reporsitory
 		Setting --> Developer Setting --> Token(classic) --> Generate new token (classic) --> 
